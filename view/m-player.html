@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Just Player</title>
+  <link rel="stylesheet" href="../css/m-player.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1><i class="fa fa-music" aria-hidden="true"></i></h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="#">Now Playing</a></li>
+          <li><a href="#">Playlists</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+        <li class="member"><a href="#">Sign Up</a></li>
+      </nav>
+    </header>
+    <main>
+      <div class="player" role="group">
+        <img src="../covers/002.TheChainsmokers&amp;Halsey-Closer.jpg" alt="fake cover">
+        <h2>Closer</h2>
+        <p>The Chain Smokers (feat.Halsey)</p>
+        <a type="button" class="add-btn">Add</a>
+        <div class="status">
+          <div class="play-btn-set">
+            <a type="button" class="play-btn">Play</a>
+            <!--play버튼은 누르면 pause로 바뀜-->
+            <a type="button" class="prev-btn">Prev</a>
+            <a type="button" class="next-btn">Next</a>
+          </div>
+          <div class="seekbar">
+            <div class="seekbar-progress"></div>
+          </div>
+          <div class="playing-time">
+            <span class="current-time">00:00</span>
+            <span class="total-time">00:00</span>
+          </div>
+        </div>
+      </div>
+      <div class="recommendation">
+        <div class="recommended-musician">
+          <img src="#" alt="#">
+          <h2>Song Title</h2>
+          <p>Singer Name</p>
+          <a href="#">Comment</a>
+        </div>
+        <div class="date">
+          <div class="line"></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <span><a href="#">contact me!</a></span>
+    </footer>
+  </div>
+  <script src="../js/m-player.js"></script>
+</body>
+</html>
